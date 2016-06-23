@@ -1,0 +1,30 @@
+{
+  "name": "node-redis",
+  "version": "1.0.0",
+  "description": "node redis api server",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon server.js",
+    "prod": "node server.js",
+    "start": "node init.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "engines": {
+    "node": ">= 6.0.0"
+  },
+  "main": "server.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ronaldronson/node-redis"
+  },
+  "keywords": ["node", "redis"],
+  "author": "ronaldronson",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.14.0",
+    "redis": "^2.6.2"
+  },
+  "devDependencies": {
+    "nodemon": "^1.9.2"
+  }
+}
