@@ -24,3 +24,11 @@ npm run prod // start in prod
 PORT: Int, port for express server
 NODE_ENV: Bool, true = production, false = development
 ```
+
+## Supported resources:
+
+```
+GET /:key
+POST /:key/:val
+DELETE /:key
+```
